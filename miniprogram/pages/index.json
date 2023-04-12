@@ -1,0 +1,7 @@
+{
+  "usingComponents": {
+    "component1": "{{usingComponents.component1}}",
+    "component2": "{{usingComponents.component2}}",
+    "component3": "{{usingComponents.component3}}"
+  }
+}

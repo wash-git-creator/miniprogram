@@ -1,0 +1,39 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/about/about",
+    "pages/contact/contact"
+  ],
+  "window": {
+    "navigationBarTitleText": "小程序标题",
+    "navigationBarBackgroundColor": "#ffffff",
+    "navigationBarTextStyle": "black"
+  },
+  "tabBar": {
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "首页",
+        "iconPath": "images/tabbar/home.png",
+        "selectedIconPath": "images/tabbar/home-selected.png"
+      },
+      {
+        "pagePath": "pages/about/about",
+        "text": "关于",
+        "iconPath": "images/tabbar/about.png",
+        "selectedIconPath": "images/tabbar/about-selected.png"
+      },
+      {
+        "pagePath": "pages/contact/contact",
+        "text": "联系",
+        "iconPath": "images/tabbar/contact.png",
+        "selectedIconPath": "images/tabbar/contact-selected.png"
+      }
+    ]
+  },
+  "permission": {
+    "scope.userLocation": {
+      "desc": "获取您的地理位置用于定位"
+    }
+  }
+}

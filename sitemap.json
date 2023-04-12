@@ -1,0 +1,13 @@
+{
+  "rules": [
+    {
+      "action": "allow",
+      "page": "pages/index/index"  // 页面路径，注意路径格式
+    },
+    {
+      "action": "allow",
+      "page": "pages/about/about"
+    }
+    // 其他页面路径
+  ]
+}
